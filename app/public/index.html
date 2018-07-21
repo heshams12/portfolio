@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hesham Sobh Portfolio</title>
+
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.1/css/uikit.min.css" />
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- UIkit JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.1/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.1/js/uikit-icons.min.js"></script>
+  <!-- Moment.js -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+  <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-overlay-primary uk-navbar-sticky uk-dark; bottom: #transparent-sticky-navbar; cls-inactive: uk-navbar-transparent uk-dark; top: 100">
+    <nav class="uk-navbar-container; uk-navbar-transparent; uk-sticky" id="navB" uk-navbar>
+      <img class="uk-navbar-item" src="images/MyPost.jpg"></img>
+      <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav">
+          <li>
+            <a href="#header">Home</a>
+          </li>
+          <li>
+            <a href="#about-me">About Me</a>
+
+          </li>
+          <li>
+            <a href="#port">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Me</a>
+          </li>
+        </ul>
+        <div class="icon">
+          <a href="#offcanvas-slide" uk-toggle uk-icon="icon: menu"></a>
+          <div>
+
+      
+
+    </nav>
+    
+    <div id="offcanvas-slide" uk-offcanvas>
+      <div class="uk-offcanvas-bar">
+
+        <ul class="uk-nav uk-nav-default">
+          <li>
+            <a href="#header">Home</a>
+          </li>
+          <li>
+            <a href="#about-me">About Me</a>
+
+          </li>
+          <li>
+            <a href="#port">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Me</a>
+          </li>
+
+          <li>
+        </ul>
+
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    <div id="header">
+      <div class="uk-container">
+        <h1>
+          <div id="rotate">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>jQuery</div>
+            <div>BootStrap</div>
+            <div>SQL</div>
+            <div>Node.js</div>
+            <div>Express</div>
+            <div>React.js</div>
+          </div>
+        </h1>
+
+        <h1 class="headmast" >Hesham Sobh</h1>
+
+      </div>
+    </div>
+    <div class="uk-container">
+      <hr class="uk-divider-icon">
+      <br>
+      <div class="pageTwo" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+
+        <h1 id="about-me">About Me</h1>
+        <img class="profile-pic" src="images/me.jpg">
+        <p>Hesham has an extensive background in Marketing and received his Bachelor's degree in Business Administration from
+          California State University, Fullerton. While working in the industry of Web Development for a Web Design company
+          he decided to pursue this field and recieve his certification in Full Stack Web Development from the University
+          of California, Irvine.</p>
+
+
+        <p>He was able to build projects and work with technologies such as: HTML, CSS, JavaScript, jQuery and more. His knowledge
+          in digital marketing combined with web development has given him a focused approach on what makes a website successful
+          and effective for businesses online. He constantly pushes himself to always be learning new skills and to better
+          himself in the field of web development.
+        </p>
+
+        <div class="badges">
+          <iframe frameborder="0" scrolling="no" src="" data-src="https://uci.credly.com/embed.html#/?member_badge_id=14909754" width="220"
+            height="219"></iframe>
+          <iframe frameborder="0" scrolling="no" src="" data-src="https://uci.credly.com/embed.html#/?member_badge_id=14909737" width="220"
+            height="219"></iframe>
+          <iframe frameborder="0" scrolling="no" src="" data-src="https://uci.credly.com/embed.html#/?member_badge_id=14909702" width="220"
+            height="219"></iframe>
+          <iframe frameborder="0" scrolling="no" src="" data-src="https://uci.credly.com/embed.html#/?member_badge_id=14909719" width="220"
+            height="219"></iframe>
+          <iframe frameborder="0" scrolling="no" src="" data-src="https://uci.credly.com/embed.html#/?member_badge_id=14909683" width="220"
+            height="219"></iframe>
+        </div>
+
+
+
+
+      </div>
+    </div>
+    <br>
+    <div class="uk-container">
+      <hr class="uk-divider-icon">
+      <br>
+      <h1 id="port">Portfolio</h1>
+      <div class="pageThree" uk-grid>
+
+        <div class="portfolioImg" uk-width-auto@s style="margin-top: 0px">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://sheltered-forest-56061.herokuapp.com/" target="_blank">
+              <img src="images/PuppyPals.png" alt="">
+              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary uk-text-center">
+                <p class="uk-h4 uk-margin-remove">Puppy Pals</p>
+                <p>full stack application: HTML/CSS, Node.js, Express, mySQL, Handlebars.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolioImg" uk-width-auto@s style="margin-top: 0px">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://heshams12.github.io/TriviaGame/" target="_blank">
+              <img id="sport" src="images/Sportstrivia.png" alt="">
+              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default uk-text-center">
+                <p class="uk-h4 uk-margin-remove">Sports Trivia</p>
+                <p id="trivia-p">Sports Trivia form with multiple choice questions. HTML, CSS, JavaScript and jQuery.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolioImg" uk-width-auto@s style="margin-top: 0px">
+          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            <a href="https://heshams12.github.io/Hangman-Game/" target="_blank">
+              <img id="sport" src="images/Hangman.png" alt="">
+              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary uk-text-center">
+                <p class="uk-h4 uk-margin-remove">Hangman</p>
+                <p id="hangman-p">Sports Hangman, user gets 9 guesses or they lose. HTML, CSS, and JavaScript.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+    <div class="uk-container">
+      <hr class="uk-divider-icon">
+      <br>
+
+      <div class="pageThree">
+        <h1 id="contact">Contact Me</h1>
+        <div class="uk-grid-match uk-grid-medium uk-child-width-expand@s uk-text-center" uk-grid>
+          <div class="uk-width-1-3@m">
+            <div class="uk-card uk-card-default uk-card-body">
+              <span uk-icon="icon: location"></span>
+              <b>Location</b>
+
+              <div id="city">
+                <a id="locationLink" href="http://maps.apple.com/maps?q=mission+viejo+california" target="_blank">Mission Viejo, CA</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="uk-width-1-3@m">
+            <div class="uk-card uk-card-default uk-card-body">
+              <span uk-icon="icon: phone"></span>
+              <b>Phone</b>
+              <div id="phone">
+                <a id="phoneLink" href="tel:949-484-5818">(949) 484-5818</a>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="uk-width-1-3@m">
+            <div class="uk-card uk-card-default uk-card-body" id="EmailCard">
+              <span uk-icon="icon: mail"></span>
+              <b>E-mail</b>
+              <div id="mail">
+                <a id="mailLink" href="mailto:Heshams12@hotmail.com">Heshams12@hotmail.com</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <br>
+    <br>
+    <footer>
+      <div class="uk-container">
+        <hr>
+        <div class="foot">
+
+
+          <p id="copyright">
+            © Copyright 2018 Hesham Sobh
+          </p>
+
+          <a href="https://www.linkedin.com/in/heshamsobh/" id="button1" class="uk-icon-button uk-margin-small-right" uk-icon="linkedin"
+            target="_blank"></a>
+          <a href="https://github.com/heshams12" id="button2" class="uk-icon-button  uk-margin-small-right" uk-icon="github" target="_blank"></a>
+
+
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+
+</body>
+
+</html>

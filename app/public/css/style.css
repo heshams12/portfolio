@@ -1,0 +1,321 @@
+.headmast {
+  visibility: visible;
+  font-family: 'El Messiri', sans-serif;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.05513;
+  text-align: center;
+  color: white;
+}
+
+#header {
+  padding: 286px 0;
+  margin-bottom: 0;
+}
+
+html,
+body {
+  background: url(../images/tobias-van-schneider-97611-unsplash.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  /* For WebKit*/
+  -moz-background-size: cover;
+  /* Mozilla*/
+  -o-background-size: cover;
+  /* Opera*/
+  background-size: cover;
+  /* Generic*/
+}
+
+.uk-logo {
+  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.uk-navbar-nav>li>a {
+  color: white;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+  color: white;
+}
+
+#rotate {
+  text-align: center;
+  color: rgb(167, 117, 9);
+  visibility: visible;
+  font-family: 'El Messiri', sans-serif;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.05513;
+  display: none;
+}
+
+#about-me {
+  visibility: visible;
+  font-family: 'El Messiri', sans-serif;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.05513;
+  text-align: center;
+  color: white;
+}
+
+#port {
+  visibility: visible;
+  font-family: 'El Messiri', sans-serif;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.05513;
+  text-align: center;
+  color: white;
+}
+
+#contact {
+  visibility: visible;
+  font-family: 'El Messiri', sans-serif;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.05513;
+  text-align: center;
+  color: white;
+}
+
+.profile-pic {
+  border: 5px solid;
+  border-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.portfolioImg {
+  margin: 5px;
+  display: inline-block;
+  padding: 10px;
+}
+
+#sport {
+  width: 286px;
+  height: 256px;
+}
+
+#trivia-p {
+  color: black;
+}
+
+#hangman-p {
+  color: white;
+}
+
+#city {
+  padding: 10px;
+}
+
+#locationLink {
+  color: #666666;
+}
+
+#phone {
+  padding: 10px;
+}
+
+#phoneLink {
+  color: #666666;
+}
+
+#mail {
+  padding: 10px;
+}
+
+#mailLink {
+  color: #666666;
+}
+
+.uk-icon-button {
+  float: right;
+}
+
+.badges {
+  text-align: center;
+}
+
+#copyright {
+  text-align: left;
+  display: inline-block;
+  color: rgb(167, 117, 9);
+}
+
+.pageThree {
+  justify-content: center;
+  margin: 11px;
+}
+
+.uk-icon {
+  color: rgb(167, 117, 9) !important;
+}
+
+li .uk-icon:hover {
+  background-color: transparent !important;
+}
+
+#button1 {
+  color: white !important;
+  background-color: rgb(167, 117, 9) !important;
+}
+
+#button2 {
+  color: white !important;
+  background-color: rgb(167, 117, 9) !important;
+}
+
+ul.uk-navbar-nav li.icon {
+  display: none;
+}
+
+li a:hover {
+  background-color: rgb(167, 117, 9);
+}
+
+.uk-card-primary.uk-card-body .uk-navbar-nav>li>a,
+.uk-card-primary>:not([class*=uk-card-media]) .uk-navbar-nav>li>a,
+.uk-card-secondary.uk-card-body .uk-navbar-nav>li>a,
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-navbar-nav>li>a,
+.uk-light .uk-navbar-nav>li>a,
+.uk-offcanvas-bar .uk-navbar-nav>li>a,
+.uk-overlay-primary .uk-navbar-nav>li>a,
+.uk-section-primary:not(.uk-preserve-color) .uk-navbar-nav>li>a,
+.uk-section-secondary:not(.uk-preserve-color) .uk-navbar-nav>li>a,
+.uk-tile-primary:not(.uk-preserve-color) .uk-navbar-nav>li>a,
+.uk-tile-secondary:not(.uk-preserve-color) .uk-navbar-nav>li>a {
+  color: white;
+}
+
+#home {
+  color: white;
+}
+
+.uk-navbar-nav {
+  display: flex;
+}
+
+.uk-card-body {
+  padding: 30px 0px !important;
+}
+
+.icon {
+  display: none;
+}
+
+@media screen and (max-width:823px) {
+  ul.uk-navbar-nav {
+    display: none;
+  }
+  .icon {
+    float: right;
+    display: block;
+    margin: 10px;
+  }
+}
+
+.uk-navbar-nav>li:hover>a,
+.uk-navbar-nav>li>a.uk-open,
+.uk-navbar-nav>li>a:focus {
+  color: white;
+  outline: 0;
+}
+
+@media screen and (device-width:320px) {
+  #copyright {
+    text-align: left;
+    display: inline-block;
+    color: rgb(167, 117, 9);
+    font-size: small;
+  }
+  #header {
+    padding: 200px 0;
+    margin-bottom: 0;
+  }
+  
+}
+
+
+  
+  @media screen and (device-width:360px) {
+    #copyright {
+      text-align: left;
+      display: inline-block;
+      color: rgb(167, 117, 9);
+      font-size: small;
+    }
+  }
+  @media screen and (device-width:736px) and (orientation: landscape) {
+    #header {
+      padding: 122px 0;
+      margin-bottom: 0;
+    }
+  }
+  @media screen and (device-width: 812px) and (orientation: landscape) {
+    #header {
+      padding: 104px 0;
+      margin-bottom: 0;
+    }
+    ul.uk-navbar-nav {
+      display: none;
+    }
+    .icon {
+      float: right;
+      display: block;
+      margin: 10px;
+    }
+  }
+  @media screen and (device-width: 823px) and (orientation: landscape) {
+    #header {
+      padding: 98px 0;
+      margin-bottom: 0;
+    }
+    ul.uk-navbar-nav {
+      display: none;
+    }
+    .icon {
+      float: right;
+      display: block;
+      margin: 10px;
+    }
+  }
+  @media screen and (device-width: 568px) and (orientation: landscape) {
+    #header {
+      padding: 63px 0;
+      margin-bottom: 0;
+    }
+  }
+  @media screen and (device-width: 667px) and (orientation: landscape) {
+    #header {
+      padding: 81px 0;
+      margin-bottom: 0;
+    }
+  }
+  @media screen and (device-width: 731px) and (orientation: landscape) {
+    #header {
+      padding: 100px 0;
+      margin-bottom: 0;
+    }
+  }
+  @media screen and (device-width: 640px) and (orientation: landscape) {
+    #header {
+      padding: 72px 0;
+      margin-bottom: 0;
+    }
+  }
