@@ -51,7 +51,9 @@ $(document).ready(function () {
 
 });
 
-
+$(window).on('#header', function(e){
+    history.replaceState ("/Home", document.title, e.originalEvent.oldURL);
+});
 
 
 function init() {
