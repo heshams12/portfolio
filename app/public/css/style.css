@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre');
+
 .headmast {
   visibility: visible;
-  font-family: 'El Messiri', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-size: 49px;
   font-style: normal;
   font-weight: 400;
@@ -46,7 +48,7 @@ body {
   text-align: center;
   color: rgb(167, 117, 9);
   visibility: visible;
-  font-family: 'El Messiri', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-size: 49px;
   font-style: normal;
   font-weight: 400;
@@ -56,7 +58,7 @@ body {
 
 #about-me {
   visibility: visible;
-  font-family: 'El Messiri', sans-serif;
+  font-family:  'Frank Ruhl Libre', serif;
   font-size: 49px;
   font-style: normal;
   font-weight: 400;
@@ -67,7 +69,7 @@ body {
 
 #port {
   visibility: visible;
-  font-family: 'El Messiri', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-size: 49px;
   font-style: normal;
   font-weight: 400;
@@ -78,7 +80,7 @@ body {
 
 #contact {
   visibility: visible;
-  font-family: 'El Messiri', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-size: 49px;
   font-style: normal;
   font-weight: 400;
@@ -105,11 +107,28 @@ p {
   margin: 5px;
   display: inline-block;
   padding: 10px;
+  height: 100%;
 }
 
+
 #sport {
-  width: 286px;
-  height: 256px;
+  width: 300px;
+  height: 280px;
+}
+
+#weatherFind {
+  width: 300px;
+  height: 280px;
+}
+
+#puppyPal {
+  width: 300px;
+  height: 280px;
+}
+
+#hangman {
+  width: 300px;
+  height: 280px;
 }
 
 #trivia-p {
@@ -158,10 +177,10 @@ p {
   color: rgb(167, 117, 9);
 }
 
-.pageThree {
+/*.pageThree {
   justify-content: center;
   margin: 11px;
-}
+}*/
 
 .uk-icon {
   color: rgb(167, 117, 9) !important;
@@ -187,6 +206,7 @@ ul.uk-navbar-nav li.icon {
 
 li a:hover {
   background-color: rgb(167, 117, 9);
+  transition:  all ease-in-out 500ms;
 }
 
 .uk-card-primary.uk-card-body .uk-navbar-nav>li>a,

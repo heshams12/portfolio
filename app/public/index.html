@@ -8,7 +8,7 @@
 
   <!-- UIkit CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.1/css/uikit.min.css" />
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
   <!-- jQuery -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
@@ -19,7 +19,7 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -29,7 +29,7 @@
 <body>
   <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-overlay-primary uk-navbar-sticky uk-dark; bottom: #transparent-sticky-navbar; cls-inactive: uk-navbar-transparent uk-dark; top: 100">
     <nav class="uk-navbar-container; uk-navbar-transparent; uk-sticky" id="navB" uk-navbar>
-      <img class="uk-navbar-item" src="images/MyPost.jpg"></img>
+      <img class="uk-navbar-item" src="images/MyPost.jpg">
       <div class="uk-navbar-right">
 
         <ul class="uk-navbar-nav">
@@ -51,10 +51,10 @@
           <a href="#offcanvas-slide" uk-toggle uk-icon="icon: menu"></a>
           <div>
 
-      
+
 
     </nav>
-    
+
     <div id="offcanvas-slide" uk-offcanvas>
       <div class="uk-offcanvas-bar">
 
@@ -99,7 +99,7 @@
           </div>
         </h1>
 
-        <h1 class="headmast" >Hesham Sobh</h1>
+        <h1 class="headmast">Hesham Sobh</h1>
 
       </div>
     </div>
@@ -145,72 +145,76 @@
       <hr class="uk-divider-icon">
       <br>
       <h1 id="port">Portfolio</h1>
-      <div class="pageThree" class="uk-grid-large" uk-grid>
+      <div class="pageThree">
+        <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider="clsActivated: uk-transition-toggle; ">
 
-        <div class="portfolioImg" uk-width-auto@s style="margin-top: 0px">
-          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            <a  href="https://serene-basin-18538.herokuapp.com/" target="_blank">
-              <img id="sport" src="images/React App.png" alt="">
-              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary uk-text-center">
-                <p class="uk-h4 uk-margin-remove">Weather Finder</p>
-                <p>ReactJS Website with working Weather API.Technologies used: React, React-bootstrap, CSS</p>
+          <ul class="uk-slider-items uk-grid">
+            <li class="uk-width-auto uk-text-center">
+              <a href="https://serene-basin-18538.herokuapp.com/" target="_blank">
+                <div class="uk-panel">
+
+
+                  <img class="portfolioImg" id="weatherFind" src="images/React App.png" alt="">
+                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <h3 class="uk-margin-remove">Weather Finder</h3>
+                    <p class="uk-margin-remove">ReactJS Website with working Weather API.Technologies used: React, React-bootstrap, CSS.</p>
+                  </div>
+              </a>
               </div>
-            </a>
-          </div>
+            </li>
+            <li class="uk-width-auto uk-text-center">
+              <a href="https://sheltered-forest-56061.herokuapp.com/" target="_blank">
+                <div class="uk-panel">
+                  <img class="portfolioImg" id="puppyPal" src="images/PuppyPals.png" alt="">
+                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <h3 class="uk-margin-remove">Puppy Pals</h3>
+                    <p class="uk-margin-remove">full stack application: HTML/CSS, Node.js, Express, mySQL, Handlebars.</p>
+                  </div>
+              </a>
+              </div>
+            </li>
+            <li class="uk-width-auto uk-text-center">
+              <a href="https://heshams12.github.io/TriviaGame/" target="_blank">
+                <div class="uk-panel">
+                  <img class="portfolioImg" id="sport" src="images/Sportstrivia.png" alt="">
+                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <h3 class="uk-margin-remove">Sports Trivia</h3>
+                    <p class="uk-margin-remove">Sports Trivia form with multiple choice questions. HTML, CSS, JavaScript and jQuery.</p>
+                  </div>
+              </a>
+              </div>
+            </li>
+            <li class="uk-width-auto uk-text-center">
+              <a href="https://heshams12.github.io/Hangman-Game/" target="_blank">
+                <div class="uk-panel">
+                  <img class="portfolioImg" id="hangman" src="images/Hangman.png" alt="">
+                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <h3 class="uk-margin-remove">Sports Hangman</h3>
+                    <p class="uk-margin-remove">Sports Hangman, user gets 9 guesses or they lose. HTML, CSS, and JavaScript.</p>
+                  </div>
+                </div>
+            </li>
+            <li class="uk-width-auto uk-text-center">
+              <a href="https://heshams12.github.io/Crystal-Collector/" target="_blank">
+                <div class="uk-panel">
+                  <img class="portfolioImg" id="hangman" src="images/CrystalsCollector.png" alt="">
+                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <h3 class="uk-margin-remove">Crystal Collector</h3>
+                    <p class="uk-margin-remove">Fun and interactive game for web browsers. Using jQuery library, HTML and CSS.</p>
+                  </div>
+                </div>
+            </li>
+
+
+          </ul>
+
+          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
         </div>
 
-
-        <div class="portfolioImg" uk-width-auto@s style="margin-top: 0px">
-          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            <a href="https://sheltered-forest-56061.herokuapp.com/" target="_blank">
-              <img src="images/PuppyPals.png" alt="">
-              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary uk-text-center">
-                <p class="uk-h4 uk-margin-remove">Puppy Pals</p>
-                <p>full stack application: HTML/CSS, Node.js, Express, mySQL, Handlebars.</p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="portfolioImg" uk-width-auto@s style="margin-top: 0px">
-          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            <a href="https://heshams12.github.io/TriviaGame/" target="_blank">
-              <img id="sport" src="images/Sportstrivia.png" alt="">
-              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default uk-text-center">
-                <p class="uk-h4 uk-margin-remove">Sports Trivia</p>
-                <p id="trivia-p">Sports Trivia form with multiple choice questions. HTML, CSS, JavaScript and jQuery.</p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="portfolioImg" uk-width-auto@s style="margin-top: 0px">
-          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            <a href="https://heshams12.github.io/Hangman-Game/" target="_blank">
-              <img id="sport" src="images/Hangman.png" alt="">
-              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary uk-text-center">
-                <p class="uk-h4 uk-margin-remove">Hangman</p>
-                <p id="hangman-p">Sports Hangman, user gets 9 guesses or they lose. HTML, CSS, and JavaScript.</p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="portfolioImg" uk-width-auto@s style="margin-top: 0px">
-          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            <a href="https://heshams12.github.io/Crystal-Collector/" target="_blank">
-              <img id="sport" src="images/CrystalsCollector.png" alt="">
-              <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary uk-text-center">
-                <p class="uk-h4 uk-margin-remove">Crystal Collector</p>
-                <p id="hangman-p">Fun and interactive game for web browsers. Using jQuery library, HTML and CSS.</p>
-              </div>
-            </a>
-          </div>
-        </div>
 
       </div>
-
-
     </div>
 
     <div class="uk-container">
